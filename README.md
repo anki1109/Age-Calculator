@@ -1,1 +1,6 @@
 # Age-Calculator
+Click on the date input to choose your birthday. The age is calculated based on the date.
+
+TO BE HANDLED- IF BIRTHDAY DATE IS SAME AS TODAY'S DATE, THEN, THIS IS RETURNING 55 YEARS AS THE VALUE
+IT APPEARS TO BE TAKING SOME VALUE AS DEFAULT, IF THE INCOMING VALUE IS NULL.
+THIS NEEDS TO BE FIXED.
