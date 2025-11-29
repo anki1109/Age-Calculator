@@ -1,0 +1,23 @@
+{
+  "name": "age-calculator",
+  "version": "1.0.0",
+  "description": "Simple static age calculator web page",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"http-server . -p 8080 -c-1\" \"wait-on http://localhost:8080 && open-cli http://localhost:8080\"",
+    "preview": "http-server . -p 8080 -c-1 -o"
+  },
+  "keywords": [
+    "age",
+    "calculator",
+    "static"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "concurrently": "^8.2.2",
+    "wait-on": "^7.0.1",
+    "open-cli": "^8.0.2"
+  }
+}
